@@ -33,7 +33,7 @@ jobs:
         run: >
           staticrypt index.html -p ${{ secrets.DECRYPTION_PASSPHRASE }} --short
           --template "password_template.html"
-          --template-title "Login"
+          --template-title "Login" 
           --template-instructions "Enter the password to view ESEM 23 proceedings. This website will only be active for the duration of the ESEM 23 conference (22 October thru 27 October)."
           --template-button "Open Page"
           --template-color-primary "#113e9f"
